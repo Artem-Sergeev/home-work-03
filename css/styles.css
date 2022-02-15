@@ -1,0 +1,228 @@
+/* Переменные */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color-1: #212121;
+  --title-text-color-2: rgba(255, 255, 255, 0.6);
+  --accent-color-1: #ffffff;
+  --accent-color-2: #2196f3;
+}
+/* body */
+
+body {
+  color: #757575;
+  background-color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+}
+
+/* Портфолио */
+
+.body {
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+button:hover,
+button:focus {
+  color: #ffffff;
+  background: #2196f3;
+  border-radius: 4px;
+}
+
+.list {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.h3-portf {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.p-text {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+/* Студия */
+
+/* header */
+
+.text-color-1 {
+  color: var(--accent-color-2);
+}
+
+.text-color-2 {
+  color: var(--title-text-color-1);
+}
+
+.text-color-3 {
+  color: var(--accent-color-1);
+}
+
+.text-color-4 {
+  color: var(--title-text-color-2);
+}
+.text-color-5 {
+  color: var(--primary-text-color);
+}
+
+.text-color-5:hover {
+  color: var(--accent-color-2);
+}
+
+[href] {
+  text-decoration: none;
+}
+
+.logo-h {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.link {
+  color: #212121;
+}
+
+.link:hover {
+  color: #2196f3;
+}
+
+.nav-link {
+  color: #2196f3;
+}
+
+nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.text-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* main */
+
+/* section-1 */
+
+.section-1 {
+  background-color: #2f303a;
+}
+
+.section-4 {
+  background-color: #f5f4fa;
+}
+
+.text-h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* button */
+
+.button {
+  color: #fff;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+}
+
+.h2-section {
+  color: #212121;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.h3 {
+  color: #212121;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.h3-text {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.p-section-2 {
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.text-p {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.list-stud {
+  background-color: #ffffff;
+}
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-f {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.ul-f {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
