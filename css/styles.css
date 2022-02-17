@@ -15,6 +15,32 @@ body {
   font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1:list-child,
+h2:list-child,
+h3:list-child,
+h4:list-child,
+p:list-child {
+  margin-bottom: 0;
+}
+
+.container {
+  width: 1630px;
+  height: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Портфолио */
 
 .body {
@@ -66,6 +92,40 @@ button:focus {
 /* Студия */
 
 /* header */
+
+/* Flex */
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper {
+  display: flex;
+}
+
+.header-link {
+  margin-right: 93px;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.nav-item:last-child {
+  margin: 0;
+}
+
+.list {
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-list {
+  display: flex;
+}
 
 .text-color-1 {
   color: var(--accent-color-2);
