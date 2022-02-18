@@ -43,11 +43,10 @@ p:list-child {
 
 /* Портфолио */
 
-.body {
-}
-
 .header {
   background-color: #ffffff;
+  width: 1600px;
+  height: 80px;
 }
 
 button {
@@ -94,11 +93,6 @@ button:focus {
 /* header */
 
 /* Flex */
-
-.header {
-  width: 1600px;
-  height: 80px;
-}
 
 .header-container {
   display: flex;
@@ -221,8 +215,50 @@ nav {
   align-items: center;
 }
 
+/* section-2 */
+
+.section-2 {
+  width: 1600px;
+}
+.container-section-2 {
+  display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 94px;
+}
+.sec-2-item {
+  margin-right: 30px;
+}
+
+/* section-3 */
+
+.section-3 {
+  width: 1600px;
+}
+
+.container-section-3 {
+  display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 50px;
+}
+
+.item-sec-3 {
+  margin-right: 30px;
+}
+
+/* section-4 */
+
 .section-4 {
   background-color: #f5f4fa;
+  width: 1600px;
+}
+
+.container-section-4 {
+  display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 50px;
 }
 
 .text-h1 {
@@ -234,8 +270,6 @@ nav {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-top: 200px;
-  width: 696px;
-  height: 120px;
 }
 
 /* button */
@@ -262,6 +296,7 @@ nav {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 94px;
 }
 
 .h3 {
@@ -297,11 +332,18 @@ nav {
 
 .list-stud {
   background-color: #ffffff;
+  margin-right: 30px;
 }
 
 /* footer */
 .footer {
   background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+
+.footer-container {
+  margin-top: 94px;
 }
 
 .logo-f {
