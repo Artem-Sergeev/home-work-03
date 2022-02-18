@@ -252,13 +252,13 @@ nav {
 .section-4 {
   background-color: #f5f4fa;
   width: 1600px;
+  height: 648px;
 }
 
 .container-section-4 {
   display: flex;
   margin-left: 215px;
   margin-right: 215px;
-  margin-top: 50px;
 }
 
 .text-h1 {
@@ -297,6 +297,7 @@ nav {
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 94px;
+  padding-top: 94px;
 }
 
 .h3 {
@@ -315,6 +316,7 @@ nav {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 30px;
 }
 
 .p-section-2 {
@@ -328,11 +330,18 @@ nav {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .list-stud {
   background-color: #ffffff;
   margin-right: 30px;
+  margin-top: 50px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* footer */
@@ -343,7 +352,9 @@ nav {
 }
 
 .footer-container {
-  margin-top: 94px;
+  display: flex;
+
+  flex-direction: column;
 }
 
 .logo-f {
@@ -351,6 +362,8 @@ nav {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  margin-left: 215px;
+  margin-top: 60px;
 }
 
 .ul-f {
@@ -358,4 +371,6 @@ nav {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  margin-left: 175px;
+  margin-top: 20px;
 }
