@@ -95,6 +95,11 @@ button:focus {
 
 /* Flex */
 
+.header {
+  width: 1600px;
+  height: 80px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -102,10 +107,13 @@ button:focus {
 
 .header-wrapper {
   display: flex;
+
+  margin-right: 215px;
 }
 
 .header-link {
   margin-right: 93px;
+  margin-left: 215px;
 }
 
 .nav-item {
@@ -125,6 +133,7 @@ button:focus {
 
 .nav-list {
   display: flex;
+  padding: 1px;
 }
 
 .text-color-1 {
@@ -181,11 +190,19 @@ nav {
   letter-spacing: 0.02em;
 }
 
+/* Интервалы */
+
 .text-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding: 0;
+  margin-left: auto;
+}
+
+.contact-header {
+  margin-right: 50px;
 }
 
 /* main */
@@ -194,6 +211,14 @@ nav {
 
 .section-1 {
   background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-4 {
@@ -208,6 +233,9 @@ nav {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 200px;
+  width: 696px;
+  height: 120px;
 }
 
 /* button */
@@ -222,6 +250,9 @@ nav {
   text-align: center;
   letter-spacing: 0.06em;
   font-family: inherit;
+  padding: 10px 32px;
+  margin-top: 30px;
+  margin-bottom: 250px;
 }
 
 .h2-section {
