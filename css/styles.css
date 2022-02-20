@@ -169,10 +169,8 @@ li:not(:last-child) {
   list-style: none;
 }
 
-.nav-list:not(:last-child) {
+.nav-list {
   display: flex;
-  margin: 0;
-  padding: 0;
 }
 
 .text-color-1 {
@@ -250,8 +248,12 @@ nav {
 
 .section-1 {
   background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero {
@@ -263,14 +265,14 @@ nav {
 /* section-2 */
 
 .section-2 {
-  width: 1600px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .container-section-2 {
   display: flex;
-  margin-left: 215px;
-  margin-right: 215px;
-  margin-top: 94px;
+  margin: 0;
 }
+
 .sec-2-item {
   margin-right: 30px;
 }
@@ -278,14 +280,14 @@ nav {
 /* section-3 */
 
 .section-3 {
-  width: 1600px;
+  padding-bottom: 94px;
 }
 
 .container-section-3 {
   display: flex;
-  margin-left: 215px;
-  margin-right: 215px;
-  margin-top: 50px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .item-sec-3 {
@@ -314,7 +316,6 @@ nav {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 200px;
 }
 
 /* button */
@@ -331,7 +332,6 @@ nav {
   font-family: inherit;
   padding: 10px 32px;
   margin-top: 30px;
-  margin-bottom: 250px;
 }
 
 .h2-section {
@@ -341,8 +341,6 @@ nav {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 94px;
-  padding-top: 94px;
 }
 
 .h3 {
