@@ -14,6 +14,11 @@ body {
   font-family: Roboto;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -87,6 +92,8 @@ p:list-child {
 
 .header {
   background-color: #ffffff;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 button {
@@ -144,6 +151,8 @@ li:not(:last-child) {
 .header-container {
   display: flex;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-wrapper {
@@ -266,11 +275,11 @@ nav {
 
 .section-2 {
   padding-top: 94px;
-  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container-section-2 {
   display: flex;
-  margin: 0;
 }
 
 .sec-2-item {
@@ -280,6 +289,7 @@ nav {
 /* section-3 */
 
 .section-3 {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -288,6 +298,7 @@ nav {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 50px;
 }
 
 .item-sec-3 {
@@ -297,15 +308,21 @@ nav {
 /* section-4 */
 
 .section-4 {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #f5f4fa;
-  width: 1600px;
-  height: 648px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container-section-4 {
   display: flex;
-  margin-left: 215px;
-  margin-right: 215px;
+}
+
+.item-sec-4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .text-h1 {
@@ -341,6 +358,7 @@ nav {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
 }
 
 .h3 {
@@ -359,7 +377,6 @@ nav {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 30px;
 }
 
 .p-section-2 {
@@ -374,13 +391,11 @@ nav {
   line-height: 1.2;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 30px;
 }
 
 .list-stud {
   background-color: #ffffff;
   margin-right: 30px;
-  margin-top: 50px;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -390,13 +405,11 @@ nav {
 /* footer */
 .footer {
   background-color: #2f303a;
-  width: 1600px;
-  height: 252px;
-}
-
-.footer-container {
-  display: flex;
-  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-f {
@@ -404,8 +417,6 @@ nav {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  margin-left: 215px;
-  margin-top: 60px;
 }
 
 .ul-f {
@@ -413,6 +424,5 @@ nav {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  margin-left: 175px;
-  margin-top: 20px;
+  padding-top: 20px;
 }
