@@ -313,10 +313,6 @@ nav {
   display: flex;
 }
 
-.sec-2-item {
-  margin-right: 30px;
-}
-
 /* section-3 */
 
 .section-3 {
@@ -326,18 +322,18 @@ nav {
 
 .container-section-3 {
   display: flex;
-  padding-left: 0;
+  /* padding-left: 0;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0; */
 }
 
-.item-sec-3 {
+.item-sec-3:not(:last-child) {
   margin-right: 30px;
 }
 
-.item-sec-3:last-child {
+/* .item-sec-3:last-child {
   margin-right: 0;
-}
+} */
 
 /* section-4 */
 
@@ -354,9 +350,8 @@ nav {
   display: flex;
 }
 
-.item-sec-4 {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.item-sec-4:not(:last-child) {
+  margin-right: 30px;
 }
 
 .list-stud:last-child {
@@ -415,6 +410,7 @@ nav {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 30px;
 }
 
 .p-section-2 {
@@ -429,6 +425,7 @@ nav {
   line-height: 1.2;
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .list-stud {
