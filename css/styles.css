@@ -56,6 +56,12 @@ p {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 h1:list-child,
 h2:list-child,
 h3:list-child,
@@ -107,8 +113,9 @@ p:list-child {
   margin-left: -30px;
 }
 
-.picture-list {
-}
+/* .picture-list {
+  outline: 1px solid #444;
+} */
 
 .btn-block {
   margin-bottom: 50px;
